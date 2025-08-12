@@ -1,10 +1,10 @@
-📌 Objective
+# 📌 Objective
 Analyze monthly revenue and order volume from an e-commerce sales dataset using SQL aggregations.
 
-🛠 Tools Used
+## 🛠 Tools Used
 MySQL
 
-📊 Features
+## 📊 Features
 Extract month and year from order_date
 
 Group sales data by month/year
@@ -17,17 +17,6 @@ COUNT(DISTINCT order_id) → Monthly Order Volume
 
 Sort results chronologically
 
-📂 Dataset
-orders table with columns:
-
-order_id (INT)
-
-order_date (DATE)
-
-amount (DECIMAL)
-
-product_id (INT)
-
-📈 Outcome
+## 📈 Outcome
 This analysis provides clear month-wise trends in sales and orders, helping businesses identify peak seasons, low-demand periods, and revenue patterns.
 
